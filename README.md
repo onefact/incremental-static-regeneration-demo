@@ -1,3 +1,23 @@
+Usage: 
+
+`pnpm run dev`
+
+Then go to http://localhost:3000/131624096_mount-sinai-hospital_standardcharges-subset.parquet/18480214 or another procedure code, and then you can see the results of a query, such as:
+
+```
+[
+  {
+    Primary_Code: '18480214',
+    Code_type: 'Charge_Code',
+    description: 'STELARA SYR 90 BU1MG',
+    Min_Charge: 111.83000183105469,
+    Max_Charge: 497.55999755859375,
+    Product_Name_Minimum: 'Indemnity',
+    Product_Name_Maximum: 'Indemnity'
+  }
+]
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
